@@ -6,6 +6,6 @@ PyrogramBot = Client(
     api_id="9024035",
     bot_token="5262055140:AAFFRMcO-IQvBFzagPaMlqadQ8xLENfhtCQ",
     plugins=dict(root="Plugins")
-)
+  )
 
 PyrogramBot.run()
