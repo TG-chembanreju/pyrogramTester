@@ -5,7 +5,7 @@ START_MESSAGE = """ʜᴇy {}, ɪ ᴀᴍ ᴀ ꜱᴩᴇᴄɪᴀʟ ʙᴏᴛ ꜰᴏ�
 """
 
 
-@Client.on_message(filters.command("start")
+@Client.on_message(filters.command("start"))
 async def start_cmd(bot, msg):
     await msg.reply_photo(
        photo="https://telegra.ph/file/d6e93a4e09f7993b12fa5.jpg",
