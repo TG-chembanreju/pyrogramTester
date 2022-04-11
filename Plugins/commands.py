@@ -1,4 +1,5 @@
 from pyrogram import Client, filters
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 
 
 START_MESSAGE = """ʜᴇy {}, ɪ ᴀᴍ ᴀ ꜱᴩᴇᴄɪᴀʟ ʙᴏᴛ ꜰᴏʀ ᴩyʀᴏɢʀᴀᴍ ᴛᴇꜱᴛ
