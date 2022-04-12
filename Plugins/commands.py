@@ -12,7 +12,8 @@ async def start_cmd(bot, msg):
        photo="https://telegra.ph/file/d6e93a4e09f7993b12fa5.jpg",
        caption=START_MESSAGE.format(msg.from_user.mention),
        reply_markup=InlineKeyboardMarkup( [[
-           InlineKeyboardButton("🧛Dᴇᴠ", url="t.me/pushpa_reju")
+           InlineKeyboardButton("Dᴇᴠ", url="t.me/pushpa_reju"),
+           InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="about")
             
            ]]
            )
